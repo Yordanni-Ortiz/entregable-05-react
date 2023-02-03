@@ -4,7 +4,7 @@ import Loader from "./components/Loader";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
 import Purchases from "./pages/Purchases";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import ProtectedRoutes from "./pages/ProtectedRoutes";
 import LogIn from "./pages/LogIn";

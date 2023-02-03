@@ -41,7 +41,7 @@ function Cart({ sendLaunch, launch }) {
     );
   }, [cartProducts]);
 
-  const dropProduct = (id) => {
+  const dropProduct = (id) => {	
     dispatch(setIsLoading(true));
     axios
       .delete(

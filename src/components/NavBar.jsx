@@ -18,6 +18,7 @@ function NavBar() {
 	};
 
     return(
+      <div className="navbarp">
         <Navbar bg="light" expand="lg">
       <Container>
         <Cart
@@ -50,6 +51,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
     )
 }
 export default NavBar
