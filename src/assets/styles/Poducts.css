@@ -2,11 +2,15 @@ body {
   background-color: rgba(27, 169, 205, 0.443);
 }
 .cards img {
-  padding: 5px;
+ max-width: 100%;
+  margin-top: 40px;
+
 }
 .container__cards {
   margin: 1em;
   width: 380px;
+  border: 6px solid rgba(27, 169, 205, 0.443);
+  box-shadow: 0 0 5px 5px #fff;
 }
 .col {
   width: 400px;
@@ -43,7 +47,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   margin: 20px 0;
-
   height: 60px;
 }
 .conteiner__pro {
@@ -54,22 +57,38 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
-.filter {
+.filter-container {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
-  gap: 100px;
-  width: 10%;
   text-align: center;
 }
-
+.filter{
+  border: solid transparent;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 6px solid rgba(27, 169, 205, 0.443);
+  box-shadow: 0 0 5px 5px #fff;
+}
+.division{
+  display: flex;
+}
+.low-Hight{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
 .butt {
   margin: 0 0 1em 0;
   text-align: center;
+  border: solid var(--bs-warning) ;
+  background: rgba(27, 169, 205, 0.443);
 }
 .Products {
   width: 100%;
   padding: 30px;
+
 }
 @media (max-width: 500px) {
   * {
