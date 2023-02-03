@@ -13,12 +13,12 @@ const ModalPurchases = ({ show, handleClose, data }) => {
             alignItems: "flex-start",
           }}
         >
-          <Modal.Title>Electronic bill</Modal.Title>
+          <Modal.Title>Zitro Gold</Modal.Title>
           <Modal.Body>
             <p>
-              friend shop c.a
+              Zitro Gold Inc, C.A
               <br />
-              J‑29989842‑2 <br />
+              J‑502671447 <br />
               {data.productsInCart?.createdAt.slice(0, 10)}
             </p>
           </Modal.Body>
