@@ -83,7 +83,7 @@ const Products = () => {
       <div className="filter-container">
         <div className="filter">
           <FormGroup>
-            <Form.Label htmlFor="name">By Name</Form.Label>
+            <Form.Label htmlFor="name"><b>Name</b></Form.Label>
             <Form.Control
               id="name"
               type="text"
@@ -98,7 +98,7 @@ const Products = () => {
         </div>
         <div className="filter">
           <FormGroup>
-            <Form.Label htmlFor="min">By Price</Form.Label>
+            <Form.Label htmlFor="min"><b>Price</b></Form.Label>
             <div className="division">
               <div>
                 <Form.Control
